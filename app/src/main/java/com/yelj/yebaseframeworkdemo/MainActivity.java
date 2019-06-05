@@ -2,9 +2,9 @@ package com.yelj.yebaseframeworkdemo;
 
 import android.widget.Toast;
 
-import com.yelj.yebaseframework.base.activity.YeBaseActivity;
+import com.yelj.ybaseframework.base.activity.YBaseActivity;
 
-public class MainActivity extends YeBaseActivity {
+public class MainActivity extends YBaseActivity {
 
     @Override
     public void initView() {
