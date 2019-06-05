@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--窗口色调-->
+    <color name="colorPrimary">#2faf7c</color>
+    <color name="colorPrimaryDark">#2faf7c</color>
+    <color name="colorAccent">#2faf7c</color>
+    <color name="windowBackground">#f2f2f2</color>
+    <color name="transparent">#00ffffff</color>
+
+    <!--字体色调-->
+    <color name="textColorPrimary">#333333</color>
+    <color name="textColorPrimaryDark">#666666</color>
+    <color name="textColorHint">#999999</color>
+    <color name="textColorAccent">@color/colorAccent</color>
+    <color name="textColorWhite">#ffffff</color>
+</resources>

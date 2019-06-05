@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/public_toolbar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="true">
+
+    <!--app:elevation="0dp">-->
+    <!--去掉TabLayout下的阴影，AppBarLayout下的阴影-->
+    <!--https://blog.csdn.net/dreamsever/article/details/52672739-->
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbarSize"
+        android:minHeight="@dimen/toolbarSize"
+        android:theme="@style/AppTheme.ActionBar"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:theme="@style/ToolBarStyle">
+
+        <!--返回键-->
+        <ImageView
+            android:id="@+id/toolbar_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:paddingEnd="15dp"
+            tools:ignore="RtlSymmetry" />
+
+        <ImageView
+            android:id="@+id/toolbar_close"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingStart="0dp"
+            android:paddingEnd="15dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxWidth="240dp"
+            android:maxLines="1"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/toolbar_titleSize" />
+    </android.support.v7.widget.Toolbar>
+</android.support.design.widget.AppBarLayout>
