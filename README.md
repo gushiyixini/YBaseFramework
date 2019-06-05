@@ -1,7 +1,7 @@
 # YeBaseFramework
 Android基础框架库
 
-version = 1.0.0
+version = `1.0.0`
 ### gradle
 Step 1. Add the JitPack repository to your build file
 ```
