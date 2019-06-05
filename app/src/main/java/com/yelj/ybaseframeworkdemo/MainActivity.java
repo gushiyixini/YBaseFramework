@@ -1,4 +1,4 @@
-package com.yelj.yebaseframeworkdemo;
+package com.yelj.ybaseframeworkdemo;
 
 import android.widget.Toast;
 

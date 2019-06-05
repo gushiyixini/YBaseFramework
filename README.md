@@ -1,8 +1,11 @@
-# YeBaseFramework
+# YBaseFramework
 Android基础框架库
 
+## 依赖方式
+
 version = `1.0.0`
-### gradle
+
+### Gradle
 Step 1. Add the JitPack repository to your build file
 ```
 allprojects {
@@ -19,7 +22,7 @@ dependencies {
 }
 ```
 
-### maven
+### Maven
 Step 1. Add the JitPack repository to your build file
 ```
 <repositories>
@@ -37,6 +40,8 @@ Step 2. Add the dependency
     <version>version</version>
 </dependency>
 ```
+
+## 用法
 
   
   
